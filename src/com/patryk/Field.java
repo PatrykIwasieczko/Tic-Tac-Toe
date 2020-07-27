@@ -1,7 +1,7 @@
 package com.patryk;
 
 
-public class Game {
+public class Field {
 
 
 }
