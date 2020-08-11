@@ -5,7 +5,7 @@ abstract class Player {
     Game game;
     Symbol humanPlayer = null;
 
-    public Player(Game game) {
+    Player(Game game) {
         this.game = game;
     }
 

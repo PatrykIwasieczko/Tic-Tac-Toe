@@ -24,7 +24,7 @@ public class Field {
         }
     }
 
-    public Field(short field) {
+    public Field(int field) {
         this.field = field;
     }
 
@@ -40,7 +40,7 @@ public class Field {
         return res;
     }
 
-    public int getFiled() {
+    public int getField() {
         return field;
     }
 

@@ -40,6 +40,7 @@ public class Game {
         Coordinates coordinates = null;
         GameStatus status = GameStatus.X_TURN;
         while (playGame) {
+
             showField();
             switch (turn){
                 case X:
@@ -53,7 +54,7 @@ public class Game {
             status = getStatus();
             switch (status){
                 case X_WINS:
-                case O_TURN:
+                case O_WINS:
                 case DRAW:
                     playGame = false;
                     break;

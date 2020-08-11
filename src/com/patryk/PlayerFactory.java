@@ -8,10 +8,10 @@ class PlayerFactory {
                 return new EasyAI(game);
             case "user":
                 return new HumanPlayer(game);
-            case "medium":
-                return new MediumAI(game);
-            case "hard":
-                return new HardAI(game);
+//            case "medium":
+//                return new MediumAI(game);
+//            case "hard":
+//                return new HardAI(game);
         }
         return null;
     }
