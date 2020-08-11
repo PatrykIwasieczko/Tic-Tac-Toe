@@ -3,9 +3,9 @@ package com.patryk;
 public enum GameStatus {
 
     X_TURN("Game not finished"),
-    Y_TURN("Game not finished"),
+    O_TURN("Game not finished"),
     X_WINS("X wins"),
-    Y_WINS("Y wins"),
+    O_WINS("Y wins"),
     DRAW("Draw");
 
     private String name;
