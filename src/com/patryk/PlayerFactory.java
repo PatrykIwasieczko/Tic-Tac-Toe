@@ -7,7 +7,7 @@ class PlayerFactory {
             case "easy":
                 return new EasyAI(game);
             case "user":
-                return new RealPlayer(game);
+                return new HumanPlayer(game);
             case "medium":
                 return new MediumAI(game);
             case "hard":
