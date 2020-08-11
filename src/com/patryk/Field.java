@@ -152,7 +152,7 @@ public class Field {
         if (xCount + oCount == 9) {
             return GameStatus.DRAW;
         }
-        
+
         if (xCount == oCount) {
             return GameStatus.X_TURN;
         }
